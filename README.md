@@ -9,11 +9,11 @@ We've experimented manually building the layered architecture, and also using th
 There is an option of loading pre-trained weights to achieve Transfer Learning.
 
 The images are acquired from cameras with fish-eye lenses, so they are circular. Each image contains zero or exactly one object. So, the classification classes are:
-.0: None (no object)
-.1: car
-.2: bus
-.3: truck
-.4: bike
+* 0: None (no object)
+* 1: car
+* 2: bus
+* 3: truck
+* 4: bike
 
 Our original dataset is small (around 1.100 image samples), so we exercised doing Data Augmentation using a series of combined "silly" modifications over each original image, such as rotating, shifting some pixels on the height and the width and applying Image filters.
 
